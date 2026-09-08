@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+}
+
+/* Layout container */
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+/* Sidebar ខាងឆ្វេង - dark background + gold border */
+.container-l {
+    background-color: #373142;
+    width: 220px;
+    height: 100%;
+    border-right: 3px solid #322610;
+}
+
+.container-l h3 {
+    padding: 15px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #5e566d;
+    cursor: pointer;
+}
+
+/* Active items - purple background */
+.container-l h3.active {
+    background-color: #6e32d6;
+    color: #ffffff;
+}
+
+/* Content ខាងស្តាំ */
+.container-r {
+    background-color: #f0ece4;
+    width: 100%;
+    height: 100%;
+}
+.container-l img {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    border: 3px solid #6e32d6;
+}
